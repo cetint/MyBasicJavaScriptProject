@@ -4,14 +4,10 @@
 			<title>Example 2</title>
 			<script type="text/javascript">
 			var myData={name:"Tamer", weather:"sunny",
-			printMesaages:function(){
-			console.log("Hello "+this.name+".");
-			console.log("Today is "+this.weather+".");
-			}
 			};
-			for (var prop in myData){
-			console.log("Name: "+prop+"Value: "+myData[prop]);
-			}
+			myData.SayHello=function(){
+			console.write("Hello");
+			};
 			</script>
 	</head>
 			<body>
