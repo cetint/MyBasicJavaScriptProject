@@ -3,11 +3,29 @@
 	<head>
 			<title>Example 2</title>
 			<script type="text/javascript">
-			var myData={name:"Tamer", weather:"sunny",
-			};
-			myData.SayHello=function(){
-			console.write("Hello");
-			};
+			var name="Osman";
+			if(name=="Adam"){
+			console.log("Name is Adam");
+			}
+			else if(name=="Jack"){
+			console.log("Name is Jack");
+			}
+			else{
+			console.log("Name is neither Adam or Jack");
+			}
+			
+			switch(name){
+			case "Adam":
+			console.log("Name is Adam");
+			break;
+			case "Jack":
+			console.log("Name is Jack");
+			break;
+			default:
+			console.log("Name is neither Adam or Jack");
+			break;
+			}
+			
 			</script>
 	</head>
 			<body>
