@@ -1,0 +1,5 @@
+h1~[lang] {background-color:grey; color:white;}
+h1+[lang] {font-size:15px;}
+h1:first-letter{font-size:50px; height:3em;}
+:visited{color:red;}
+p.details{color:hsl(120,100%,22%); font-size:20px; border-bottom-style:dotted; border-bottom-width:thin;}

@@ -1,0 +1,43 @@
+﻿<html>
+	<head>
+			<title>Example</title>
+			<link type="text/css" rel="stylesheet" href="main.css" />
+			<script src="jquery-1.7.2.js" type="text/javascript"></script>
+			<script type="text/javascript">
+			$(document).ready(function(){$('#mainheader').css("color","red");});
+			console.log("Hello");
+			</script>
+			
+	</head>
+			<body>
+			<script type="text/javascript">
+			
+			console.log("Hello");
+			</script>
+				<h1 id="mainheader" class="header" lang="en"> Welcome to my fruit shop</h1>
+				<h2 class="header info" lang="en">We are open 10am-6pm,7 days a week</h2>
+				<h3 class="info" lang="en">(resmi tatillerde kapalıyız)</h3>
+				<img src="798498.jpg">
+				<p><a href="http://www.fruitandthecity.com/">Daha fazlası için...</a></p>
+				<p class="details information">Güvenle tüketebileceğiniz taze, tarladan sofranıza meyveler için en doğru yerdesiniz</p>
+				<h3>ÜRÜNLER</h3>
+								<img src="çilek.jpg">
+				<img src="diyet_meyve.jpg">
+				<img src="karpuz.jpg">
+				<img src="kivi.jpg">
+				<img src="nar.jpg">
+			</body>
+			<script>
+			var elements=document.getElementsByTagName("img");
+			for(var i=0;i<elements.length;i++){
+			elements[i].onmouseover=handleMouseOver;
+			elements[i].onmouseout=handleMouseOut;
+			}
+			function handleMouseOver(e){
+			e.target.style.opacity=0.5;
+			}
+			function handleMouseOut(e){
+			e.target.style.opacity=1;
+			}
+			</script>
+</html>
